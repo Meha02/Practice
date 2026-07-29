@@ -1,15 +1,16 @@
 package org.example.day3;
 
 public class FindMaxValue {
-    static void maxValue(int n1,int n2){
+    static int maxValue(int n1,int n2){
         if(n1>n2){
-            System.out.println(n1+" is the Maximum value");
+            return n1;
         }
         else{
-            System.out.println(n2+" is the maximum value");
+            return n2;
         }
     }
     public static void main(String[] args){
-        maxValue(3,8);
+        int maxVal=maxValue(899008848,453467584);
+        System.out.println(maxVal);
     }
 }
